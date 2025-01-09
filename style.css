@@ -4,7 +4,7 @@
     justify-content: space-between;
     /* to allign the both contents left and right  */
     align-items: center;
-    display: inline-flex; 
+    display: inline-flex;
     /* to vertically center an item */
     background-color: black;
 }
@@ -40,6 +40,7 @@
     color: grey;
     border: 1px solid grey;
 }
+
 #last {
     background-color: black;
     width: 100%;
@@ -65,68 +66,97 @@ footer {
     font-size: larger;
     color: grey;
 }
+
 h2 {
     margin-left: 48%;
     color: grey;
 }
-#last hr{
-    margin-left:3rem;
+
+#last hr {
+    margin-left: 3rem;
     margin-right: 3rem;
     color: grey;
 }
-hr{
-    margin-left:3rem;
+
+hr {
+    margin-left: 3rem;
     margin-right: 3rem;
 }
-.one,.two,.three{
+
+.one,
+.two {
     margin-top: 2rem;
-    margin-left:45%;
+    margin-left: 1rem;
+    margin-right: 1rem;
     margin-bottom: 1rem;
-    transition : transform 0.5s ease;
+    transition: transform 0.5s ease;
     border: 0.5px solid black;
-    width:150px
+    width: 150px
 }
-.one:hover{
+
+.one img {
+    width: 150px
+}
+
+.two img {
+    width: 150px
+}
+
+ul {
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 1.5rem;
+}
+
+h1 {
+    margin-left: 1.5rem;
+}
+
+#img21:hover {
     transform: rotate(5deg);
 }
-.one img{
-    width:150px
+
+#img22:hover {
+    transform: skew(5deg)
 }
-.two:hover{
-    transform: skewY(5deg);
-}
-.two img{
-    width:150px
-}
-.three:hover{
+
+#img23:hover {
     transform: scale(1.07);
 }
-.three img{
-    width:150px
+
+#img24:hover {
+    transform: translate(50px, 50px);
 }
-.one1,.two1,.three1{
-    margin-top: 4rem;
-    margin-left:45%;
-    margin-bottom: 1rem;
-    transition : transform 0.5s ease;
-    border: 0.5px solid black;
-    width:150px
+
+#img25:hover {
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
 }
-.one1:hover{
-    transform: rotate(10deg);
+
+#img26:hover {
+    transform: scale(0.7) rotate(10deg);
 }
-.one1 img{
-    width:150px
+
+#img31:hover {
+    transform: rotateX(60deg);
 }
-.two1:hover{
-    transform: skewX(10deg);
+
+#img32:hover {
+    transform: perspective(5cm) rotateX(-15deg) rotateY(30deg);
 }
-.two1 img{
-    width:150px
+
+#img33:hover {
+    transform: scale3d(1.07, 1, 1.5);
 }
-.three1:hover{
-    transform: scale(0.7);
+
+#img34:hover {
+    transform: translate3d(50px, 50px, 70px);
 }
-.three1 img{
-    width:150px
+
+#img35:hover {
+    transform:matrix3d(
+        0.7, 0.1, 0.7, 0,-0.6, 0.7, 0.2, 0,-0.5, -0.8, 0.7, 0, 10, 10, 0, 1 );
+}
+
+#img36:hover {
+    transform: scale3d(1.07, 1, 1.5) rotateX(60deg);
 }
